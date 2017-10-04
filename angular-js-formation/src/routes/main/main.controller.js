@@ -1,7 +1,7 @@
 angular.module('demoApp')
 .controller('MainController',
 ['MessageService', '$scope',
-function (MessageService, $scope) {
+function (MessageService, $scope, userService) {
   MessageService.getMessages().then(function(messages){
   	self.messages = messages
   })

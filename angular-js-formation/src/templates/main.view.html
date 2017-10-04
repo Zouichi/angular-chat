@@ -2,9 +2,7 @@
 <div class="row">
     <div class="col-md-2">
         <h2>Users</h2>
-        <ul class="li">Morpheus</ul>
-        <ul class="li">Neo</ul>
-        <ul class="li">Trinity</ul>
+        <ul ng-repeat="user in main.users" class="li">{{user}}</ul>
     </div>
     <div class="col-md-10">
         <h2>Chat</h2>

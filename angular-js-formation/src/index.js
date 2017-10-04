@@ -7,6 +7,7 @@ require('./routes/main/main.controller')
 require('./routes/login/login.controller')
 require('./routes/register/register.controller')
 require('./services/messageService')
+require('./services/userService')
 
 module.config(function ($routeProvider) {
   $routeProvider.when('/', {

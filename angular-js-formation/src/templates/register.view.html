@@ -1,6 +1,12 @@
 <h1>Register mother******</h1>
-<input type="text" placeholder="Username">
-<br />
-<input type="text" placeholder="Password">
-<br />
+<div class="form-group">
+<label for="firstname">First name</label>
+<input ng-model="register.firstname" type="text">
+<label for="lastname">Last name</label>
+<input ng-model="register.lastname" type="text">
+<label for="email">Email</label>
+<input ng-model="register.email" type="text">
+<label for="pwd">Password</label>
+<input ng-model="register.pwd" type="text">
 <button type="submit">Register</button>
+</div>
